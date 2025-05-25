@@ -1,10 +1,10 @@
 # Hi there, Tryse - aka [Tryserezzabiantong](https://www.linkedin.com/in/tryse-rezza-biantong/) 👋
 ## About me:
-- 🔭 I’m currently working as Quality Assurance Engineer
-- 🌱 I’m currently learning tools Codeceptjs, Phyton, Selenium and Playwrite
-- 📚 I'm speaking English, Indonesia, and learning Deutsch niveu B2
-- 👯 I’m looking to collaborate as Quality Assurance
-- 🤔 I’m looking for suggest for Rust Project Ideas
+- 🔭 Currently working as a Senior Quality Assurance Engineer
+- 🌱 Learning tools Codeceptjs, Phyton, Selenium and Playwrite
+- 📋 My Bachelor Degree has been fully recognized as a German Degree by the Kultusministerkonferenz 
+- 📚 Speaking English, Indonesia, and learning Deutsch niveu B2
+- 👯 Looking to collaborate as Quality Assurance
 - 💬 Ask me about anything
 - 📫 How to reach me: tryserezza@gmail.com
 
