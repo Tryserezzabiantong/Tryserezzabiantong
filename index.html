@@ -159,3 +159,48 @@
 
             // Education
             html += `<h3>Education</h3>`;
+            html += `<p><strong>${profile.education.degree}</strong> at ${profile.education.university} (${profile.education.duration})</p>`;
+
+            // Skills
+            html += `<h3>Technical Skills</h3>`;
+            
+            // QA Automation Tools
+            html += `<h4>QA Automation & Testing Tools</h4><div class="skill-list">`;
+            profile.skills.qaAutomationTools.forEach(skill => {
+                html += `<span class="skill-item">${skill}</span>`;
+            });
+            html += `</div>`;
+
+            // Test Management Tools
+            html += `<h4>Test Management Tools</h4><div class="skill-list">`;
+            profile.skills.testManagementTools.forEach(skill => {
+                html += `<span class="skill-item">${skill}</span>`;
+            });
+            html += `</div>`;
+
+            // Programming Languages
+            html += `<h4>Programming Languages</h4><div class="skill-list">`;
+            profile.skills.programmingLanguages.forEach(skill => {
+                html += `<span class="skill-item">${skill}</span>`;
+            });
+            html += `</div>`;
+
+            // Languages
+            html += `<h3>Languages</h3><ul>`;
+            html += `<li><strong>Native:</strong> ${profile.languages.native}</li>`;
+            html += `<li><strong>Fluent:</strong> ${profile.languages.fluent}</li>`;
+            html += `<li><strong>Learning:</strong> ${profile.languages.learning}</li>`;
+            html += `</ul>`;
+
+            return html;
+        }
+
+        // Run the function when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            const profileContainer = document.getElementById('profile-content');
+            profileContainer.innerHTML = generateProfileHTML(userProfile);
+        });
+    </script>
+
+</body>
+</html>
