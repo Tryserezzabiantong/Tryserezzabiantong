@@ -1,121 +1,161 @@
-const userProfile = {
-  name: "Tryse Rezza Biantong",
-  title: "Senior Quality Assurance Engineer",
-  contact: {
-    phone: "+62 81232344958",
-    email: "tryserezza@gmail.com",
-    location: "Depok, Jawa Barat, Indonesia",
-    linkedin: "https://www.linkedin.com/in/tryse-rezza-biantong/",
-  },
-  [cite_start]summary: "Sebagai Senior Quality Assurance Engineer di sektor perbankan Indonesia, saya memiliki pengalaman kerja enam tahun dan menguasai pengujian perangkat lunak baik secara otomatis maupun manual[cite: 3]. [cite_start]Saya juga berhasil mengkoordinasikan tim QA[cite: 4]. [cite_start]Dengan pengakuan diploma saya oleh ZAB untuk aplikasi visa kerja, saya sangat termotivasi untuk melanjutkan karir saya di Jerman[cite: 4]. [cite_start]Saat ini saya sedang mengambil kursus bahasa Jerman dan belajar secara intensif untuk segera mencapai level B2, yang akan memastikan integrasi yang lancar ke dunia kerja Jerman[cite: 5].",
-  experience: [
-    {
-      title: "Senior-QA-Engineer di Amar Bank Indonesia",
-      duration: "4/2023 hingga sekarang",
-      details: [
-        [cite_start]"Mengkoordinasi berbagai tim: Bertindak sebagai koordinator untuk beberapa tim, termasuk tim Digital Amar Bank (Android dan iOS), tim CRM, dan tim proyek seperti Amar Bank Website Revamp, Power Curve Collection (PCC), dan Yellow Messenger[cite: 42, 44]. [cite_start]Saya juga terlibat dalam Platform Bisnis Amar Bank (Ambiz)[cite: 45].",
-        [cite_start]"Memimpin dan mengkoordinasi tim QA dengan 5-9 anggota[cite: 46].",
-        [cite_start]"Meninjau draf kasus uji dan dokumen persyaratan teknis dari staf QA[cite: 47].",
-        [cite_start]"Meninjau kode otomatisasi melalui Bitbucket[cite: 48].",
-        [cite_start]"Melakukan 70% pengujian otomatisasi dengan Codeceptjs dan 30% pengujian manual di tim Ambiz[cite: 50].",
-        [cite_start]"Berpengalaman sebagai Senior di lingkungan Kanban dan lingkungan Agile/Scrum[cite: 51]."
-      ]
-    },
-    {
-      title: "Mittlerer QA-Engineer (Middle QA Engineer) di Amar Bank Indonesia",
-      duration: "$11/2020$ hingga 3/2023",
-      details: [
-        [cite_start]"Menguji website back-office bank digital (disebut 'Customer Relationship Management' - CRM): Ini mencakup 50% pengujian manual dan 50% pengujian otomatis (Katalon Studio)[cite: 35].",
-        [cite_start]"Mengkoordinasi tim yang terdiri dari 5 staf QA di tim CRM[cite: 36].",
-        [cite_start]"Melakukan pengujian performa dengan Apache JMeter dan pengujian API[cite: 38, 39]."
-      ]
-    },
-    {
-      title: "Junior-QA-Engineer di Amar Bank Indonesia",
-      duration: "6/2019 hingga 10/2020",
-      details: [
-        [cite_start]"Melakukan pengujian untuk aplikasi perbankan digital, terdiri dari 80% pengujian manual dan 20% pengujian otomatis (Katalon Studio)[cite: 32].",
-        [cite_start]"Melakukan pengujian regresi dan pengujian fungsional serta pelaporan bug di Jira[cite: 32].",
-        [cite_start]"Berpengalaman di lingkungan Agile/Scrum[cite: 33]."
-      ]
-    },
-    {
-      title: "Praktik Kerja sebagai IT-Mitarbeiter di Maxone Hotel Malang",
-      duration: "8/2017 hingga 10/2017",
-      details: [
-        [cite_start]"Mengembangkan aplikasi database HR dengan bahasa pemrograman Java[cite: 27].",
-        [cite_start]"Mengoptimalkan administrasi personalia[cite: 28]."
-      ]
-    }
-  ],
-  education: {
-    degree: "Sarjana Teknik Informatika",
-    university: "Universitas Brawijaya Malang",
-    duration: "9/2014 hingga 11/2018",
-    [cite_start]notes: "Lulusan Sarjana, diakui sepenuhnya oleh Zentralstelle für ausländisches Bildungswesen (ZAB)[cite: 59]."
-  },
-  skills: {
-    qaAutomationTools: [
-      "Android Studio",
-      "Android Emulator",
-      "Postman",
-      "Flipper",
-      "CI/CD",
-      "Apache JMeter",
-      "Appium Inspector",
-      "Codeceptjs",
-      "Katalon Studio",
-      "Playwright",
-      "Appium",
-      "Cucumber",
-      "Gherkin",
-      "Selenium dengan Java",
-      "Cypress"
-    ],
-    testManagementTools: [
-      "TestRail",
-      "Jira Software",
-      "Github",
-      "Git"
-    ],
-    programmingLanguages: [
-      "Python",
-      "Java",
-      "Javascript",
-      "C++"
-    ]
-  },
-  languages: {
-    native: "Bahasa Indonesia",
-    [cite_start]fluent: "Bahasa Inggris (lisan dan tulisan yang sangat baik) [cite: 69]",
-    [cite_start]learning: "Bahasa Jerman (lisan dan tulisan yang baik di level B2) [cite: 68]"
-  }
-};
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tryse Rezza Biantong's Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .contact-info {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-item {
+            background-color: #ecf0f1;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
 
-// Contoh membuat HTML dari data (untuk demonstrasi)
-function generateProfileHTML(profile) {
-  let html = `<h1>${profile.name}</h1>`;
-  html += `<h2>${profile.title}</h2>`;
-  html += `<p><strong>Kontak:</strong> ${profile.contact.email} | ${profile.contact.phone}</p>`;
-  html += `<p><strong>LinkedIn:</strong> <a href="${profile.contact.linkedin}">${profile.contact.linkedin}</a></p>`;
-  html += `<h3>Ringkasan</h3><p>${profile.summary}</p>`;
+    <div class="container">
+        <div id="profile-content"></div>
+    </div>
 
-  html += `<h3>Pengalaman Kerja</h3>`;
-  profile.experience.forEach(job => {
-    html += `<h4>${job.title} (${job.duration})</h4><ul>`;
-    job.details.forEach(detail => {
-      html += `<li>${detail}</li>`;
-    });
-    html += `</ul>`;
-  });
+    <script>
+        // Your profile data in JavaScript
+        const userProfile = {
+            name: "Tryse Rezza Biantong",
+            title: "Senior Quality Assurance Engineer",
+            contact: {
+                phone: "+62 81232344958",
+                email: "tryserezza@gmail.com",
+                location: "Depok, Jawa Barat, Indonesia",
+                linkedin: "https://www.linkedin.com/in/tryse-rezza-biantong/",
+            },
+            summary: "As a Senior Quality Assurance Engineer in the Indonesian banking sector, I bring six years of professional experience and am proficient in both automated and manual testing of software applications. I successfully coordinate QA teams. With the recognition of my diploma by the ZAB for a work visa application, I am highly motivated to continue my career in Germany. I am currently taking a German course and am learning intensively to reach the B2 level soon, which will ensure a smooth integration into the German working world.",
+            experience: [
+                {
+                    title: "Senior QA Engineer at Amar Bank Indonesia",
+                    duration: "4/2023 to present",
+                    details: [
+                        "Coordination of various teams, including the Amar Bank Digital teams (Android and iOS), the CRM team, and project teams such as Amar Bank Website Revamp, Power Curve Collection (PCC), and Yellow Messenger. I was also involved in the Amar Bank Business Platform (Ambiz).",
+                        "Leadership and coordination of QA teams with 5-9 members.",
+                        "Review of test case designs and technical requirements documents from QA staff.",
+                        "Review of automation code via Bitbucket.",
+                        "Conducted 70% automated tests with Codeceptjs and 30% manual tests on the Ambiz team.",
+                        "Experience as a Senior in a Kanban environment and in an Agile/Scrum environment."
+                    ]
+                },
+                {
+                    title: "Middle QA Engineer at Amar Bank Indonesia",
+                    duration: "11/2020 to 3/2023",
+                    details: [
+                        "Testing the back-office website of a digital bank (CRM) with 50% manual tests and 50% automated tests (Katalon Studio).",
+                        "Coordination of a team of 5 QA employees in the CRM team.",
+                        "Execution of performance tests with Apache JMeter and API tests."
+                    ]
+                },
+                {
+                    title: "Junior QA Engineer at Amar Bank Indonesia",
+                    duration: "6/2019 to 10/2020",
+                    details: [
+                        "Execution of tests for a digital banking application, consisting of 80% manual testing and 20% automated testing (Katalon Studio).",
+                        "Execution of regression tests and functional tests as well as bug reporting in Jira.",
+                        "Experience in an Agile/Scrum environment."
+                    ]
+                },
+                {
+                    title: "IT Staff Internship at Maxone Hotel Malang",
+                    duration: "8/2017 to 10/2017",
+                    details: [
+                        "Development of an HR database application with the Java programming language.",
+                        "Optimization of personnel administration."
+                    ]
+                }
+            ],
+            education: {
+                degree: "Bachelor of Technical Computer Science",
+                university: "Universitas Brawijaya Malang",
+                duration: "9/2014 to 11/2018",
+                notes: "Bachelor's degree, fully recognized by Zentralstelle für ausländisches Bildungswesen (ZAB)."
+            },
+            skills: {
+                qaAutomationTools: [
+                    "Android Studio", "Android Emulator", "Postman", "Flipper", "CI/CD", "Apache JMeter",
+                    "Appium Inspector", "Codeceptjs", "Katalon Studio", "Playwright", "Appium",
+                    "Cucumber", "Gherkin", "Selenium with Java", "Cypress"
+                ],
+                testManagementTools: [
+                    "TestRail", "Jira Software", "Github", "Git"
+                ],
+                programmingLanguages: [
+                    "Python", "Java", "Javascript", "C++"
+                ]
+            },
+            languages: {
+                native: "Indonesian",
+                fluent: "Excellent English (written and spoken)",
+                learning: "Good German (B2 level in both written and spoken)"
+            }
+        };
 
-  html += `<h3>Keterampilan Teknis</h3>`;
-  html += `<h4>Alat Otomatisasi QA & Pengujian</h4><p>${profile.skills.qaAutomationTools.join(', ')}</p>`;
-  html += `<h4>Bahasa Pemrograman</h4><p>${profile.skills.programmingLanguages.join(', ')}</p>`;
-  // ... bagian lain untuk pendidikan, bahasa, dll.
+        // Function to generate HTML content from JavaScript data
+        function generateProfileHTML(profile) {
+            let html = `<h1>${profile.name}</h1>`;
+            html += `<h2>${profile.title}</h2>`;
+            html += `<p class="contact-info">
+                        ${profile.contact.email} | ${profile.contact.phone} | ${profile.contact.location}
+                    </p>`;
+            html += `<p><strong>LinkedIn:</strong> <a href="${profile.contact.linkedin}">${profile.contact.linkedin}</a></p>`;
 
-  return html;
-}
+            // Summary
+            html += `<h3>Summary</h3><p>${profile.summary}</p>`;
 
-// Dalam aplikasi nyata, ini akan membuat struktur HTML dan memasukkannya ke dalam sebuah elemen.
-// console.log(generateProfileHTML(userProfile));
+            // Work Experience
+            html += `<h3>Work Experience</h3>`;
+            profile.experience.forEach(job => {
+                html += `<h4>${job.title} <small>(${job.duration})</small></h4><ul>`;
+                job.details.forEach(detail => {
+                    html += `<li>${detail}</li>`;
+                });
+                html += `</ul>`;
+            });
+
+            // Education
+            html += `<h3>Education</h3>`;
