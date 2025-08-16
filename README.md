@@ -33,7 +33,7 @@ As a **Senior Quality Assurance Engineer** in the Indonesian Banking Sector, I b
 
 **IT Staff Internship** | **Maxone Hotel Malang**
 *8/2017 to 10/2017*
-- Developed an HR database application with the Javascript programming language.
+- Developed an HR database application with the HTML und PHP programming language.
 - Worked as IT Operations.
 
 ---
