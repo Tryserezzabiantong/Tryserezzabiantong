@@ -3,8 +3,17 @@
 
 <br>
 
-**Summary**
-As a **Senior Quality Assurance Engineer** in the Indonesian Banking Sector, I bring six years of professional experience and am proficient in both **automated and manual testing of software applications**. I successfully **coordinate QA teams**. With the **recognition of my diploma by the Zentralstelle für ausländisches Bildungswesen (ZAB)** for a work visa application, I am highly motivated to continue my career in Germany. I am currently **taking a German course** and am learning intensively to reach the B2 level soon, which will ensure a smooth integration into the German working world.
+## 🚀 About Me
+
+As a **Senior Quality Assurance Engineer** in the Indonesian banking sector, I bring **six years of professional experience** in the IT industry. I specialize in both **automated and manual testing** of software applications and have a proven track record of **coordinating QA teams** to deliver high-quality products.
+
+### 💡 Innovation & AI
+Driven by a passion for innovation, I recently participated in a **Hackathon** where I developed solutions using **AI Prompt Automation**. Currently, I am deepening my expertise by exploring **n8n** as a powerful tool for automating **complex AI workflows** and **LLM integrations**.
+
+### 🇩🇪 Career Goals & Integration
+With my degree officially recognized by the **ZAB (Central Office for Foreign Education)**, I am highly motivated to transition my career to **Germany**. 
+* **Language Progress:** Currently enrolled in an intensive German course.
+* **Current Level:** Working diligently towards **B2-level proficiency** to ensure seamless integration into the German professional environment.
 
 ---
 
