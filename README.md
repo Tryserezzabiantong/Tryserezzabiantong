@@ -73,6 +73,10 @@ With my degree officially recognized by the **ZAB (Central Office for Foreign Ed
 - **Test Management Tools:** 
   <img src="https://img.shields.io/badge/TestRail-000000?style=for-the-badge&logo=testrail&logoColor=white" alt="TestRail" height="25"/>
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Software" height="25"/>
+- **AI & Workflow Automation:**
+  <img src="https://img.shields.io/badge/n8n-FF6D5B?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" height="25"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="LLM" height="25"/>
+  <img src="https://img.shields.io/badge/Prompt_Engineering-000000?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Prompt Engineering" height="25"/>
 - **Hosting Git Tools:** 
   <img src="https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white" alt="Bitbucket" height="25"/>
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="25"/>
